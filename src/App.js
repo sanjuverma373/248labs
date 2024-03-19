@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Backtop from './components/Backtop';
+import Behindsection from './components/Behindsection';
+import Doerssec from './components/Doerssec';
+import Flysection from './components/Flysection';
+import Footersection from './components/Footersection';
+import Headersection from './components/Headersection';
+import Levelsection from './components/Levelsection';
+import Mailsection from './components/Mailsection';
+import Preloadersec from './components/Preloadersec';
+import Richsection from './components/Richsection';
+import Roadmapsection from './components/Roadmapsection';
+import Slidersection from './components/Slidersection';
+import Whatnextsec from './components/Whatnextsec';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Preloadersec/>
+   <Headersection/>
+   <Slidersection/>
+   <Doerssec/>
+   <Levelsection/>
+   <Flysection/>
+   <Richsection/>
+   <Behindsection/>
+   <Whatnextsec/>
+   <Roadmapsection/>
+   <Mailsection/>
+   <Footersection/> 
+   <Backtop/>
+   </>
   );
 }
 
