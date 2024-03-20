@@ -74,8 +74,8 @@ const Behindsection = () => {
                               <img src={behind.img} alt="#" />
                               <div className='gap-2 d-flex flex-column  '>
                                       <div className=' d-flex align-items-center gap-2  '>
-                                              <h4 className='roboto-flex fw-semibold fs-md1 text-white m-0 text-center mx-auto text-lg-start mx-lg-0 '>{behind.heading}</h4>
-                                               <p className=' m-0 fs-sm1 fw-normal roboto-flex text-gragient text-center mx-auto text-lg-start mx-lg-0'>{behind.work}</p>
+                                              <h4 className='roboto-flex fw-semibold fs-md1 text-white m-0 text-center mx-auto text-lg-start mx-lg-0 text-nowrap  '>{behind.heading}</h4>
+                                               <p className=' m-0 fs-sm1 fw-normal roboto-flex text-gragient text-center mx-auto text-lg-start mx-lg-0 text-nowrap'>{behind.work}</p>
                                       </div>
                                        <p className=' m-0 fs-sm1 fw-normal roboto-flex color-light-white1 max-w-283 text-center mx-auto text-lg-start mx-lg-0'>{behind.para1}</p>
                               </div>
