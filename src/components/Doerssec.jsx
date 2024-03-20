@@ -24,7 +24,7 @@ const Doerssec = () => {
                 </div>
         ))
         return (
-                <div id='aboutus' className='pt-121 bg-black mt1 position-relative overflow-x z-1  '>
+                <div id='aboutus' className='pt-121 bg-black mt1 position-relative overflow-x z-1 '>
                         <h1 className=' fs-xxl fw-bold roboto-flex position-absolute about-h text-white z-n1 '>About Us</h1>
                         <div className='container'>
                                 <div className="row pb-114 ">
@@ -45,6 +45,7 @@ const Doerssec = () => {
                                         {Crdsdata}
                                 </div>
                         </div>
+                        <span className="ellepise-desktop"></span>
                 </div>
         )
 }

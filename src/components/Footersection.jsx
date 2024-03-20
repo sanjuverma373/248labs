@@ -3,7 +3,7 @@ import { Facebook, Footericon, Insta, Linkedin, Twittericon } from './Icon'
 
 const Footersection = () => {
   return (
-    <div className=' bg-black  pt-5 pt-lg-0 '>
+    <div className=' bg-black  pt-5 pt-lg-0 position-relative z-1 overflow-hidden  '>
       <div className="container">
         <div className=' d-flex flex-column align-items-center justify-content-center'>
                 <span className=' pb-18'><Footericon/></span>
@@ -23,6 +23,7 @@ const Footersection = () => {
       </div>
       <hr className=' line-f' />
       <p className=' m-0 text-center pt-22 pb-26 roboto-flex fw-normal fs-sm color-gray'>© {(new Date().getFullYear())} 248 Labs. All rights reserved</p>
+      <span className="ellepise-footer"></span>
     </div>
   )
 }

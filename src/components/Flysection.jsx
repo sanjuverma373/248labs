@@ -4,7 +4,7 @@ import Commonbtns from './Commonbtns'
 
 const Flysection = () => {
   return (
-    <div className=' bg-black pb-150 '>
+    <div className=' bg-black pb-150 position-relative z-1 overflow-x  '>
        <div className='container'>
         <img className=' w-100 pb-4' src={flyimg} alt="#" />
         <div className='row'>
@@ -19,6 +19,7 @@ const Flysection = () => {
                 </div>
         </div>
        </div>
+       <span className="ellepise-fly"></span>
     </div>
   )
 }

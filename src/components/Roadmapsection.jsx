@@ -84,7 +84,6 @@ const Roadmapsection = () => {
             <div className="col-sm-5 ps-5 ps-sm-0 "></div>
             <div className="col-sm-5 ps-5 ps-sm-0 "></div>
             <div
-              data-aos="fade-left"
               className="col-sm-5 ps-5 ps-sm-0  pt-lg-5 mt-lg-5"
             >
               <div className="gradient-border-maskroadmap mb-1 w-100 mt-4 overflow-hidden ">
